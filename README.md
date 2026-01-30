@@ -62,6 +62,11 @@ notebooks/
 │       └── Chinook.db
 └── module-3/
     └── 3.2_managing_messages.ipynb
+    ├── 3.3_human_in_the_loop.ipynb
+    ├── 3.4_dynamic_prompts.ipynb
+    ├── 3.4_dynamic_tools.ipynb
+    ├── 3.4_dynamic_models.ipynb
+    ├── 3.5_email_agent.ipynb
 ```
 
 ## Key Patterns
@@ -128,7 +133,5 @@ agent = create_agent(model=model, tools=tools)
 - [uv](https://docs.astral.sh/uv/) package manager
 - API keys: Google Gemini (or any other provider), Tavily (for web search)
 
-## Further Topics
-
-The following topics will be covered in upcoming modules:
-- Human-in-the-loop workflows
+## Acknowledgement
+This course is inspired by Langchain Academy.
